@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabeza{
+    display: flex;
+    background-color: linear-gradient(to right, #051f30, #000000);
+}
+
+.menu {
+    transition: 0.3s;
+    background: rgba(8, 63, 85, 0.892);
+    padding: 20px 20px 20px 0;
+    width: 110px;
+    box-shadow: 8px 0px 9px 0px #0000003a;
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+}
+
+.menucontent li {
+    list-style: none;
+    border-radius: 0px 50px 50px 0;
+    transition: 0.2s;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(213, 213, 213);
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+li:hover {
+    background: #0c0c0c;
+}
+
+.menu:hover {
+    width: 260px;
+}
+#fotis img{
+    max-width: 50%;
+    height: 30%;
+    object-fit: cover;  
+    padding: 10px;
+    padding-left: 30px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.pochita{
+    padding: 10px;
+    padding-left: 40px;
+    text-align: justify;
+    font-size: large; 
+    font-family: 'Pixelify Sans', sans-serif;
+}
+    h1{
+    padding: 10px;
+    padding-left: 450px;
+}
+    .pit{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    width: 550px;
+    text-align: left;
+    padding: 2px;
+    padding-left: 20px;
+}
+    strong{
+    padding: 10px;
+}
+    .fotos_ejemplo img{
+    width: 30%;
+    object-fit: cover;  
+    padding: 20px;
+    margin-bottom: 10px;
+}
+figure{
+    padding: 20px;
+    padding-left: 20px;
+    text-align: center;
+    width: auto;
+}
+form {
+    max-width: 600px; 
+    width: 100%; 
+    text-align: center;
+    padding-left: 50%;
+}
+fieldset {
+    padding: 30px;
+    background-color: #FCF5ED;
+}
+
